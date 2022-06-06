@@ -18,3 +18,27 @@ I have experience in the position of HTML encoder. I always try to learn somethi
 - Bootstrap
 - Photoshop
 - Git
+
+## __Code Example__
+```
+function sum(a, b) {
+  return a + b;
+}
+let result = sum(1, 2);
+alert( result );
+```
+
+## __Experience__
+
+Mostly I am doing non-commercial development. \
+Now I have 3 months of experience in the position of HTML coder
+
+## __Education__ 
+- __University:__ Altai State University, Fundamental Informatics and Information Technology
+- __Courses:__
+  - [Codewears](https://www.codewars.com/)
+  - [FreelancerLifeStyle](https://www.youtube.com/c/FreelancerLifeStyle)
+  - [HTML Academy](https://www.htmlacademy.ru)
+
+## __English__
+__A1__ 
