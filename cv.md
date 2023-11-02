@@ -86,3 +86,28 @@ function disemvowel(str) {
   return resultStr;
 }
 ```
+
+## __Experience__
+
+__-Advertising agency СonverTeam__
+*Operating time: October 2021 - August 2022*
+*Position : HTML-versioner*
+
+__-Partner Network Olimob__
+*Operating time: August 2022 - Up to the present*
+*Position : Senior HTML-versioner*
+
+__-Other commercial experience__
+*Tasks included editing information on the website*
+*Link: https://goldofpackard.ru/*
+
+
+## __Education__ 
+- __University:__ Altai State University, Fundamental Informatics and Information Technology
+- __Courses:__
+  - [Codewears](https://www.codewars.com/)
+  - [FreelancerLifeStyle](https://www.youtube.com/c/FreelancerLifeStyle)
+  - [HTML Academy](https://www.htmlacademy.ru)
+
+## __English__
+__A1__ 
