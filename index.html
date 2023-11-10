@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_content">
+                <div class="photoblock">
+                    <img class="photo" src="img/avatar.jpg" alt="photo">
+                </div>
+                <div class="info">
+                    <h1>Daniil Biver</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#contacts"> Contacts</a></li>
+                            <li><a href="#about"> About Me</a></li>
+                            <li><a href="#skills"> Skills</a></li>
+                            <li><a href="#code"> Code Example</a></li>
+                            <li><a href="#experience"> Experience </a></li>
+                            <li><a href="#education"> Education</a></li>
+                            <li><a href="#projects"> Projects</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row_one">
+                <div class="contacts" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><span class="cont">Telegram:</span> <a href="https://t.me/tearzday"> tearzday </a></li>
+                        <li><span class="cont">GitHub:</span><a href="https://github.com/tearzday"> tearzday</a></li>
+                        <li><span class="cont">Email:</span><a href="mailto:biverdaniil@gmail.com"> biverdaniil@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="about" id="about">
+                    <h2>About Me</h2>
+                    <p><i>I'm 23 years old. More than 2 years working on the position of HTML layout in different advertising agencies. My goal is to move to the position of Frontend-developer and improve my skills. In addition to work, I have a specialized higher education, as well as a number of different courses.
+                        In addition to work I have various hobbies. For example, in my free time I am fond of sewing, go to the gym and am interested in various monetary investments (stocks, bonds, etc.).</i></p>
+                </div>
+            </div>
+            <div class="row_two">
+                <div class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <ol>
+                        <li>Development languages (Web):
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS/SASS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                        <li>Frameworks
+                            <ul>
+                                <li>Vue 3</li>
+                                <li>Vutify 3</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </li>
+                        <li>Databases
+                            <ul>
+                                <li>PostgresSQL</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </li>
+                        <li>Other
+                            <ul>
+                                <li>Axios</li>
+                                <li>NodeJS</li>
+                                <li>NPM</li>
+                                <li>Git</li>
+                                <li>ESLint</li>
+                            </ul>
+                        </li>
+                        <li>Methodologies
+                            <ul>
+                                <li>BEM</li>
+                                <li>OOP</li>
+                                <li>SOLID</li>
+                                <li>MVC</li>
+                            </ul>
+                        </li>
+                        <li>Platforms
+                            <ul>
+                                <li>VS Code</li>
+                                <li>Figma / Photoshop</li>
+                            </ul>
+                        </li>
+                        <li>Languages studied at university
+                            <ul>
+                                <li>Python</li>
+                                <li>C, C#</li>
+                                <li>Assembler</li>
+                                <li>1С</li>
+                                <li>PHP</li>
+                                <li>SQL</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div> 
+                <div class="code" id="code">
+                    <h2>Code Example</h2>
+                    <p>DESCRIPTION: </p>
+                    <p>Trolls are attacking your comment section! A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat. Your task is to write a function that takes a string and return a new string with all vowels removed. For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!". Note: for this kata y isn't considered a vowel.</p>
+                    <pre class="codepre">
+function disemvowel(str) {
+    let vowels = 'aeiou';
+    let resultStr = '';
+    for(let i = 0; i < str.length; i++){
+        switch(str[i]){
+            case 'a':break;
+            case 'e':break;
+            case 'i':break;
+            case 'o':break;
+            case 'u':break;
+            case 'A':break;
+            case 'E':break;
+            case 'I':break;
+            case 'O':break;
+            case 'U':break;
+            default: resultStr += str[i]
+        }
+    }
+    return resultStr;
+    }
+                    </pre>
+                </div>
+            </div>
+            <div class="row_three">
+                <div class="experience" id="experience">
+                    <h2>Experience</h2>
+                    <p>Advertising agency СonverTeam <br> Operating time: October 2021 - August 2022 <br> Position : HTML-versioner</p>
+                    <p>Partner Network Olimob <br> Operating time: August 2022 - Up to the present <br> Position : Senior HTML-versioner</p>
+                    <p>Other commercial experience <br> Tasks included editing information on the <a href="https://goldofpackard.ru/">website</a></p>
+                </div>
+                <div class="education" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><span class="cont"> University:</span> Altai State University, Fundamental Informatics and Information Technology</li>
+                        <li>
+                            <span class="cont"> Courses:</span>
+                            <ul>
+                                <li><a href="https://ru.code-basics.com/"> Codebasics</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA"> FreelancerLifeStyle</a></li>
+                                <li><a href="https://htmlacademy.ru/"> HTML Academy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row_four">
+                <div class="english">
+                    <h2>English</h2>
+                    <p><span class="cont"> English:</span> A1</p>
+                </div>
+                <div class="projects" id="projects">
+                    <h2>Projects</h2>
+                    <div class="cat-pinterest">
+                        <a href="https://github.com/tearzday/CatPinterest">
+                            <img src="img/cat-pinterest.png" alt="cat-pinterest photo">
+                        </a>
+                        <h3>Cat Pinterest</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/tearzday"><img src="img/git.svg" alt="Icon github" class="gitphoto"></a>
+            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="Icon rsschool" class="rsphoto"></a>
+            <span class="year">2023</span>
+        </div>
+    </footer>
+</body>
+</html>
