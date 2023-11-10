@@ -1,1 +1,1 @@
-# rsschool-cv
+https://tearzday.github.io/rsschool-cv/
