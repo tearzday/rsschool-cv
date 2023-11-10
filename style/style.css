@@ -1,138 +1,143 @@
+body {
+    background-color: #F2F3F5;
+    color: #333333;
+}
+
 header{
     display: flex;
-    background-color: #d8d8d8;
-  }
-  
-  .container{
+    background-color: #333333;
+    color: #A264F0;
+}
+
+a {
+    text-decoration: none;
+    color: #A264F0;
+    font-weight: bold;
+}
+
+.container{
     width: 1200px;
     margin: 0 auto;
-  }
-  
-  
-  .header_content{
+}
+
+
+.header_content{
     display: flex;
-  }
-  
-  .photoblock{
+}
+
+.photoblock{
     margin: auto 50px;
-  }
-  .photo{
+}
+.photo{
     width: 200px;
     border-radius: 50%;
-  }
-  
-  .codepre{
+}
+
+.codepre{
     padding: 10px;
-    border: 5px solid #d8d8d8;
+    border: 5px solid #333333;
     border-radius: 20px;
-  }
-  
-  .info{
+}
+
+.info{
     margin: auto 150px;
     text-align: center;
-  }
-  
-  h1{
+}
+
+h1{
     font-size: 75px;
     text-transform: uppercase;
-  }
-  a:hover{
+}
+
+a:hover{
     transition: 1s;
     text-decoration: none;
-  }
-  
-  .skills li{
+}
+
+.skills li{
     font-weight: 700;
-  }
-  
-  
-  h2{
+}
+
+h2{
     display: inline-block;
     padding: 10px 20px;
-    text-decoration:underline #f2c100;
     font-size: 40px;
-    background-color:#d8d8d8;
+    background-color:#333333;
     border-radius: 25px;
-  }
-  
-  h2:hover{
+    color: #A264F0;
+}
+
+h2:hover{
     transition: 0.5s;
     background-color: rgb(180, 180, 180);
-  }
-  
-  ul{
+}
+
+ul{
     padding: 4px;
-  }
-  
-  nav li{
+}
+
+nav li{
     padding: 2px;
     font-size: 18px;
     font-weight: bold;
     list-style-type: none;
     display: inline;
-  }
-  
-  nav a{
+}
+
+nav a{
     color: black;
-  }
-  
-  .row_one , .row_two , .row_three , .row_four{
+}
+
+.row_one , .row_two , .row_three , .row_four{
     display: flex;
-  
-  }
-  
-  .contacts, .about , .skills, .code, .experience, .education, .english , .projects{
+}
+
+.contacts, .about , .skills, .code, .experience, .education, .english , .projects{
     width: 600px;
     font-size: 25px;
-    
-  }
-  
-  .contacts:hover, .about:hover , .skills:hover, .code:hover, .experience:hover, .education:hover, .english:hover , .projects:hover{
-    
-  }
-  
-  .contacts li{
-  list-style-type: square;
-  }
-  
-  .cont{
-   font-weight: bold;
-  }
-  
-  .cat-pinterest{
+}
+
+.contacts li{
+    list-style-type: square;
+}
+
+.cont{
+    font-weight: bold;
+}
+
+.cat-pinterest{
     width: 500px;
     text-align: center;
-  }
-  
-  
-  
-  .cat-pinterest img{
+}
+
+.cat-pinterest img{
     width: 500px;
     border-radius: 20px;
-  }
-  
-  .cat-pinterest img:hover{
+}
+
+.cat-pinterest img:hover{
     transition: 0.5s;
     width: 515px;
-  }
-  
-  footer{
+}
+
+footer{
     height: 100px;
-    background-color: #d8d8d8;
+    background-color: #333333;
     padding: 20px 0;
-  }
-  footer .container{
+}
+footer .container{
     display: flex;
     justify-content: space-between;
-  }
-  
-  .gitphoto{
+}
+
+.gitphoto{
     width: 100px;
-  }
-  .rsphoto{
+}
+
+.rsphoto{
     width: 200px;
-  }
-  
-  .year{
+}
+
+.year{
     font-size: 30px;
-  }
+}
