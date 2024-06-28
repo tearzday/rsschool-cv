@@ -8,7 +8,7 @@
 
 ## About US
 
-Commercial experience of 3 years. I worked as an HTML-verstalker in campaigns that deal with advertising. My duties included development of sites with products for advertising, as well as development of internal systems, various technical support of the site and similar related things. At this stage I want to work in a team connected more with the development, get experience from colleagues, learn new things, well, and of course be useful and proud of what has turned out to create.
+My life has been about code for a long time and it's one of the things that affects my thinking. Also, as banal as it may sound, I am very punctual in my work, I can't rest easy on my day off if I know that I haven't done something in time. I easily compromise, I am always curious to learn new knowledge and experience from my colleagues. I have never encountered any conflicts or misunderstandings at any of my jobs. Most of my friends are my colleagues, either we have worked together before and keep in touch, or we are currently working together. Unfortunately, the campaigns where I've worked are not really suitable for growth beyond HTML-versatile, so my goal is of course technical growth. It's fun to be a painter and paint buttons, of course, but working with different algorithms is more appealing to me.
 
 ## Technology Stack
 
@@ -51,3 +51,14 @@ Requested maximum length will be greater than 0. Input string will not be empty.
 
 **Result**
 `const trim = (str, size) => (str.length > size && size > 3)?str.slice(0 , size - 3) + '...':(str.length <= size)?str:str.slice(0 , size) + '...'`
+
+
+## Work experience
+
+Commercial work experience for 3 years. I worked as an HTML layout designer for advertising campaigns. My duties included development of websites with products for advertising, as well as development of internal systems, various technical support for the site and similar related things. Most of the time I'm like a kind of painter, repaint here, move here. But there were also quite interesting projects, where Vue3, Nuxt, Vutifay, Tailwind were used, working with various queries and other features that I had to think about.
+
+## Education 
+- **Bachelor's degree in "Fundamental Informatics and Information Technologies" at ASU university**
+- Courses and similar material have been plentiful. **Free part of HTML Acadmey, html and css courses from code-basic, courses on git, courses from postgresql**.
+- Also a big layer of knowledge is tutorials and documentation, for example, **learn.javascript tutorial, MDN, documentation for VUE**.
+- And of course YouTube, one of my favorite frontend related channels is Ulbi TV.
