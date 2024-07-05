@@ -4,8 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Stack</a></li>
+                        <li><a href="#">Code Example</a></li>
+                        <li><a href="#">Work experience</a></li>
+                        <li><a href="#">Education</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="info-me">
+                <div class="contacts">
+                    <h1>Hello, my name Daniil Biver</h1>
+                    <div class="contacts-info">
+                        <h2>Contacts for communication:</h2>
+                        <ul>
+                            <li>telegram: @tearzday</li>
+                            <li>gmail: biverdaniil@gmail.com</li>
+                            <li>gituhb: https://github.com/tearzday</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="images/ava.png" alt="Avatar Daniil">
+            </div>
+            <div class="about">
+                <h2>About US</h2>
+                <p>My life has been about code for a long time and it's one of the things that affects my thinking. Also, as banal as it may sound, I am very punctual in my work, I can't rest easy on my day off if I know that I haven't done something in time. I easily compromise, I am always curious to learn new knowledge and experience from my colleagues. I have never encountered any conflicts or misunderstandings at any of my jobs. Most of my friends are my colleagues, either we have worked together before and keep in touch, or we are currently working together. Unfortunately, the campaigns where I've worked are not really suitable for growth beyond HTML-versatile, so my goal is of course technical growth. It's fun to be a painter and paint buttons, of course, but working with different algorithms is more appealing to me.</p>
+            </div>
+            <div class="row">
+                <div class="stack">
+                    <h2>Technology Stack</h2>
+                    <ol>
+                        <li>
+                            Basic technologies:
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS/SCSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Framework:
+                            <ul>
+                                <li>Vue 3</li>
+                                <li>Vuex</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Other:
+                            <ul>
+                                <li>GIT</li>
+                                <li>Node JS</li>
+                                <li>axios</li>
+                                <li>Knowledge of OOP and functional programming</li>
+                                <li>Knowledge of SPA</li>
+                                <li>Various algorithms (bubble sorting, linear search, etc.)</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div class="code-example">
+                    <h2>Code Example</h2>
+                    <h4>Description</h4>
+                    <p>
+                        Create a function that will trim a string (the first argument given) if it is longer than the requested maximum string length (the second argument given). The result should also end with "..."
+                        These dots at the end also add to the string length.For example, trim("Creating kata is fun", 14) should return "Creating ka..."
+                        If the string is smaller or equal than the maximum string length, then simply return the string with no trimming or dots required.
+                        e.g. trim("Code Wars is pretty rad", 50) should return "Code Wars is pretty rad"If the requested string length is smaller than or equal to 3 characters, then the length of the dots is not added to the string length.
+                        e.g. trim("He", 1) should return "H...", because 1 <= 3
+                        Requested maximum length will be greater than 0. Input string will not be empty.
+                    </p>
+                    <h4>Result</h4>
+                    <code>const trim = (str, size) => (str.length > size && size > 3)?str.slice(0 , size - 3) + '...':(str.length <= size)?str:str.slice(0 , size) + '...'</code>
+                </div>
+            </div>
+            <div class="row">
+                <div class="education-info">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Bachelor's degree in "Fundamental Informatics and Information Technologies" at ASU university</li>
+                        <li>Courses and similar material have been plentiful. Free part of HTML Acadmey, html and css courses from code-basic, courses on git, courses from postgresql.</li>
+                        <li>Also a big layer of knowledge is tutorials and documentation, for example, learn.javascript tutorial, MDN, documentation for VUE.</li>
+                        <li>And of course YouTube, one of my favorite frontend related channels is Ulbi TV.</li>
+                    </ul>
+                    <h2>Language</h2>
+                    <ul>
+                        <li>English A1</li>
+                        <li>Russian</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Example project</h2>
+                    <p>CatPinterest. Github: <a href="https://github.com/tearzday/CatPinteres" target="_blank">*click*</a></p>
+                    <img src="images/project.jpg" alt="CatPinterest example">
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="links">
+                <div class="github">
+                    <a href="https://github.com/tearzday" target="_blank"><img src="images/github.png" alt="Logo GitHub"></a>
+                </div>
+                <div class="rss">
+                    <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="images/rs.svg" alt="Logo RSS"></a>
+                </div>
+            </div>
+            <p>Year of creation 2024</p>
+        </div>
+    </footer>
 </body>
 </html>
